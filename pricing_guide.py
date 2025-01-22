@@ -12,7 +12,7 @@ st.header("Year: 1995-2015")
 # Load data
 @st.cache_data
 def load_data():
-    path = '/Users/animesh/Documents/GitHub/pricingguideSCU/Yearly Pricing Book_Main.xlsx'
+    path = 'Yearly Pricing Book_Main.xlsx'
     return pd.read_excel(path)
 
 df = load_data()

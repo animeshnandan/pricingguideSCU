@@ -12,7 +12,7 @@ st.header("Year: 1995-2015")
 # Load data
 @st.cache_data
 def load_data():
-    path = './Yearly Pricing Book_Main.xlsx'
+    path = './Yearly Pricing Book_22-24.xlsx'
     return pd.read_excel(path)
 
 df = load_data()
